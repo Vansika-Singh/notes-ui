@@ -1,16 +1,27 @@
-# React + Vite
+# Notes UI — React Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive React frontend for the Notes App.
 
-Currently, two official plugins are available:
+## Tech Stack
+- React 18
+- Vite
+- Axios
+- CSS Variables
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Split-screen layout — form on left, notes on right
+- Dark mode / light mode toggle
+- Live search — filters as you type
+- Create, edit, delete notes
+- Stats bar showing total notes and latest note date
 
-## React Compiler
+## How to Run
+1. Clone the repo
+2. Run: npm install
+3. Run: npm run dev
+4. Open http://localhost:5173
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Make sure the backend is running on http://localhost:8080
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Backend
+Spring Boot API repo: https://github.com/Vansika-Singh/Notes-App
